@@ -7,9 +7,10 @@ function App() {
   return (
     <div className="App">
       <div>
+
         {/* react rouuting to event page */}
+        
           <Router>
-            {/* <Button /> */}
            <Routes>
            <Route path='' element={ <Header />} />
             <Route path='/event' element={<Event />} />

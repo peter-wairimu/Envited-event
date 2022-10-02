@@ -1,0 +1,112 @@
+.app-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    height: 100vh;
+    
+
+     
+}
+.app-header__title{
+    margin-top: 12rem;
+}
+.text{
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+
+
+.app-header__logo img{
+    width: 440px;
+    height: 775.69px;
+}
+
+.app-btn{
+    margin-top: 2rem;
+    margin-left: 19rem;
+}
+
+@media (max-width: 1024px){
+    .app-header{
+        max-width: var( --container-width-md);
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .app-header__title .head{
+        position: absolute;
+        top: 0;
+        left: 0;
+
+    }
+    .app-header__title .text{
+        position: absolute;
+        top: 25%;
+        left: 7%;
+
+    }
+    .app-header__title .app-btn{
+        position: absolute;
+        bottom: 10%;
+        margin-left: 11rem;
+
+    }
+
+
+    .app-header__logo img{
+        margin-top: 17rem;
+        margin-left: 8rem;
+    }
+
+}
+
+@media (max-width: 600px){
+    .app-header{
+        
+        max-width: var( --container-width-sm);
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }
+    .app-header__logo{
+        position: absolute;
+        top: 10.6%;
+     
+    }
+    .app-header__title .head{
+        position: absolute;
+        top: 10%;
+        left: -19%;
+        width: 100%;
+
+    }
+    .app-header__title .text{
+        position: absolute;
+        top: 27%;
+        left: -20%;
+        width: 80%;
+
+    }
+    .app-header__title .app-btn{
+        position: absolute;
+        bottom: -20%;
+        margin-left: 11rem;
+
+    }
+    .app-header__logo img{
+        margin-top: 13rem;
+        margin-left: 5rem;
+        width: 165.63px;
+        height: 292px;
+    }
+    .app-header__title .app-btn{
+        position: absolute;
+        bottom: 25%;
+        margin-left: 5rem;
+
+
+    }
+    .app-header__title .app-btn img{
+        width: 187px;
+        height: 50px;
+    }
+}

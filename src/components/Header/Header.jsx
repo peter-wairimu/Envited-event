@@ -18,8 +18,11 @@ const Header = () => {
             <img className='head' src={heading} alt='snap' />
 
             <img className='text' src={txt} alt='snap' />
-
+            <div className='app-btn'>
             <Button />
+            </div>
+
+           
             </div>
 
     </div>

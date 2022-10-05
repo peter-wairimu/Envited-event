@@ -1,0 +1,16 @@
+.App-add_event{
+    padding: 4rem;
+}
+.upload-image{
+    padding-top: 2rem;
+
+}
+
+.upload-image img{
+    width: 40%;
+    height: auto;
+}
+
+.app-upload_btn{
+    padding-top: 2rem;
+}

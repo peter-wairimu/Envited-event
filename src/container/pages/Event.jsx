@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
 import date from '../../assets/Date.png';
 import event from '../../assets/Event.png';
 import location from '../../assets/Location.png';
+// import AddEevent from '../Add_events/AddEevent';
 import './event.css';
+import { Link } from "react-router-dom";
 
 
 const Event = () => {
@@ -19,6 +21,13 @@ const Event = () => {
         </div>
         <div className='event-body'>
             <img className='event' src={event} alt='event' />
+        </div>
+        <div className="button-home">
+        <Link to="/home">
+            <button className='app-btn custom-button'>
+            back home
+            </button>
+        </Link>
         </div>
 
     </div>

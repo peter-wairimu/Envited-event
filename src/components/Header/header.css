@@ -23,7 +23,7 @@
 
 .app-btn{
     margin-top: 2rem;
-    margin-left: 19rem;
+    margin-left: 8rem;
 }
 
 @media (max-width: 1024px){
@@ -40,14 +40,14 @@
     }
     .app-header__title .text{
         position: absolute;
-        top: 25%;
+        top: 18%;
         left: 7%;
 
     }
     .app-header__title .app-btn{
         position: absolute;
-        bottom: 10%;
-        margin-left: 11rem;
+        bottom: -5%;
+        margin-left: 6rem;
 
     }
 
@@ -86,12 +86,7 @@
         width: 80%;
 
     }
-    .app-header__title .app-btn{
-        position: absolute;
-        bottom: -20%;
-        margin-left: 11rem;
 
-    }
     .app-header__logo img{
         margin-top: 13rem;
         margin-left: 5rem;
@@ -100,8 +95,8 @@
     }
     .app-header__title .app-btn{
         position: absolute;
-        bottom: 25%;
-        margin-left: 5rem;
+        bottom: 6%;
+        margin-left: 2rem;
 
 
     }

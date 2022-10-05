@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Button = () => {
   return (
     <div>
-        <Link to="/event">
+        <Link to="/add_event">
             <button className='app-btn'>
                     <img className='button' src={button} alt='button'/>
             </button>
